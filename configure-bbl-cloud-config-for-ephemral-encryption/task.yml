@@ -11,4 +11,4 @@ inputs:
 - name: bbl-state # - The Director's `bbl-state.json`
 
 run:
-  path: cf-deployment-concourse-tasks/bbl-up/task
+  path: cf-deployment-concourse-tasks-dax/configure-bbl-cloud-config-for-ephemral-encryption/task
