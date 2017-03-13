@@ -7,7 +7,7 @@ bbl print-env > bbl-env
 
 bosh login
 
-bosh cloud-config > cloud.config.yml
+bosh cloud-config > cloud-config.yml
 
 sed '/ephemeral_disk:/a \      encrypted: true\' cloud-config.yml > cloud-config-encrypted-ephemeral-disk.ymlb
 
