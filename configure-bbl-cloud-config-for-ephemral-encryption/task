@@ -11,4 +11,4 @@ bosh cloud-config > cloud-config.yml
 
 sed '/ephemeral_disk:/a \      encrypted: true\' cloud-config.yml > cloud-config-encrypted-ephemeral-disk.ymlb
 
-echo y | bosh2 update-cloud-config cloud-config-encrypted-ephemeral-disk.yml
+echo y | bosh update-cloud-config cloud-config-encrypted-ephemeral-disk.yml
